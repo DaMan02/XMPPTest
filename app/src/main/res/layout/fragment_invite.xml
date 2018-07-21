@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dayal.xmpptest2.fragments.InviteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="Enter JID to invite"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/invite_friend_id"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/invite_btn"
+        android:layout_marginStart="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Invite"
+        android:layout_below="@id/invite_friend_id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/invitaion_info_text"
+        android:text="No pending Invitations"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="40dp"/>
+
+</RelativeLayout>

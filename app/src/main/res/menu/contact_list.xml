@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/xmpp_logout"
+        android:title="@string/xmpp_logout"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/create_room"
+        android:title="Create new room"
+        app:showAsAction="never"
+
+        />
+
+</menu>
